@@ -1,0 +1,32 @@
+####
+
+# editor info
+name: atomist-project-templates.rug-archive.ConvertExistingProjectToRugArchiveWithGenerator
+group: atomist-project-templates
+artifact: rug-archive
+version: 4.1.1
+
+# backing git repo
+repo: atomist-project-templates/rug-archive.git
+branch: master
+sha: ca17682
+
+# parameter values
+rug_archive_name: config-repo
+generator_name: NewConfigurationRepo
+
+# generator info
+name: NewConfigurationRepo
+group: atomist-project-templates
+artifact: config-repo
+version: 0.2.0
+
+# backing git repo
+repo: atomist-project-templates/config-repo.git
+branch: master
+sha: 3831b07
+
+# parameter values
+project_name: AtomistConfigRepo
+description: Atomist Configuration Repo.... just checking
+
